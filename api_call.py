@@ -123,7 +123,7 @@ def main():
     elif mark_action == "UNREAD":
         mark_action = False
     else:
-        raise ValueError('Invalid destination')
+        raise ValueError('Invalid Action')
 
     destination = data["destination"]
 
